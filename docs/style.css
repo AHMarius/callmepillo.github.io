@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Roboto;
+  src: url(media/RobotoMono-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: rgba(20,20,20,256);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#profile {
+  flex: 0 0 300px;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin-left: calc(50vw - 300px);
+  margin-top: calc(50vh - 150px);
+}
+
+#selector {
+  margin-top: calc(50vh - 150px);
+  height: 300px;
+  margin-left: 10px;
+  color: white;
+  font-family: Roboto;
+  font-size: 40px;
+  display: inline;
+}
+
+#content-container {
+  flex: 1 1 300px;
+  display: block;
+  margin-left: 10px;
+}
+
+#selector .section {
+  position: absolute;
+  transition: opacity 0.5s ease, transform 0.5s ease, top 0.5s ease;
+}
+
+/* fade-out state */
+.section.fade {
+  opacity: 0;
+  transform: translateX(40px);
+  pointer-events: none;
+}
+
+/* infocus state */
+.section.infocus {
+  opacity: 1;
+  top: calc(50vh - 150px - 40px) !important;
+}
+
+#page-container {
+  display: flex;
+  margin-top: calc(50vh - 215px);
+  margin-left: 50px;
+  width: 300px;
+}
+
+.page {
+  position: absolute;  
+  opacity: 0;
+  width: 400px;
+  transition: opacity 1s ease, transform 1s ease;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.active {
+  width: 400px;
+  opacity: 0.8 !important;
+  transform: translateX(-50px);
+}
+
+@media (max-width: 750px) {
+  body {
+    flex-direction: column; /* force stacking */
+    align-items: center;
+  }
+
+  #profile {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #selector {
+    width: 100%;
+    text-align: center;
+  }
+
+  #selector .section {
+    margin-top: 125px;
+  }
+
+  #page-container {
+    margin-top: 10px;
+  }
+}
