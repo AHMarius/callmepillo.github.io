@@ -1,5 +1,7 @@
 window.onload = function() {
   console.log("Page loaded");
+
+  /* apply effect to options */
   document.querySelectorAll("#selector .section").forEach(item => {
     item.addEventListener("click", () => {
       // toggle the class for the item
@@ -26,6 +28,22 @@ window.onload = function() {
       });
     });
   });
+
+  /* apply effect to image */
+  const profile = document.querySelectorAll("#profile .glow");
+
+  profile[0].addEventListener("mousemove", handleMouseMove);
+
+  function handleMouseMove(e) {
+    const rect = this.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left - rect.width / 2;
+    const mouseY = e.clientY - rect.top - rect.height / 2;
+
+    let angle = Math.atan2(mouseY, mouseX) * (180 / Math.PI);
+    angle = (angle + 360) % 360;
+
+    this.style.setProperty("--start", angle + 60);
+  }
 
 };
 

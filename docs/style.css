@@ -11,11 +11,57 @@ body {
 
 #profile {
   flex: 0 0 300px;
-  object-fit: cover;
   width: 300px;
   height: 300px;
+  position: relative;
   margin-left: calc(50vw - 300px);
   margin-top: calc(50vh - 150px);
+}
+
+#profile img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+}
+
+#profile .glow {
+  --start: 0;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  filter: blur(14px);
+}
+
+#profile .glow::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: 5px solid transparent;
+  background: white;
+  background-attachment: fixed;
+  mask: linear-gradient(#0000, #0000),
+    conic-gradient(
+      from calc((var(--start) - (20 * 1.1)) * 1deg),
+      #ffffff1f 0deg,
+      white,
+      #ffffff00 100deg
+    );
+  mask-composite: intersect;
+  mask-clip: padding-box, border-box;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+#profile .glow:hover::before {
+  opacity: 0.6;
 }
 
 #selector {
@@ -36,7 +82,7 @@ body {
 
 #selector .section {
   position: absolute;
-  transition: opacity 0.5s ease, transform 0.5s ease, top 0.5s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease, text-shadow 1s ease, top 0.5s ease, letter-spacing 0.5s ease;
   pointer-events: visible;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -44,7 +90,9 @@ body {
 }
 
 #selector .section:hover {
-  text-shadow: 1px 1px 1px gray;
+  cursor: pointer;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 40px white;
 }
 
 /* fade-out state */
@@ -79,8 +127,9 @@ body {
   pointer-events: none;
 }
 
-.active {
-  width: 400px;
+.page.active {
+  width: 40vw;
+  max-width: 600px;
   opacity: 0.8 !important;
   transform: translateX(-50px);
 }
@@ -89,10 +138,11 @@ body {
   body {
     flex-direction: column; /* force stacking */
     align-items: center;
+    overflow-x: hidden;
   }
 
   #profile {
-    margin-top: 50px;
+    margin-top: calc(50vh - 350px);
     margin-left: 0;
     margin-right: 0;
   }
@@ -103,7 +153,7 @@ body {
   }
 
   #selector .section {
-    margin-top: 100px;
+    margin-top: 170px;
   }
 
   #content-container {
@@ -112,5 +162,10 @@ body {
 
   #page-container {
     margin-top: 10px;
+  }
+
+  #page-container .page {
+    width: 80vw;
+    max-width: 400px;
   }
 }
