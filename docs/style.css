@@ -142,6 +142,7 @@ body {
   position: absolute;  
   opacity: 0;
   width: 40vw;
+  max-width: 600px;
   transition: opacity 1s ease, transform 1s ease;
   color: white;
   font-family: Roboto;
