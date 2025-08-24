@@ -35,14 +35,13 @@ window.onload = function() {
   window.addEventListener("mousemove", handleMouseMove);
 
   function handleMouseMove(e) {
-    /*
-    const rect = this.getBoundingClientRect();
+    const rect = profile.getBoundingClientRect();
     const mouseX = e.clientX - rect.left - rect.width / 2;
     const mouseY = e.clientY - rect.top - rect.height / 2;
-    */
+    /*
     const mouseX = e.clientX - window.screenLeft - window.innerWidth / 2;
     const mouseY = e.clientY - window.screenTop - window.innerHeight / 2;
-
+    */
     
     let angle = Math.atan2(mouseY, mouseX) * (180 / Math.PI);
     angle = (angle + 360) % 360;
