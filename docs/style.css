@@ -73,7 +73,7 @@ body {
       white,
       #ffffff00 100deg
     );
-  /* mask-composite: intersect; */
+  mask-composite: intersect;
   mask-clip: padding-box, border-box;
   opacity: 0.6;
   transition: 0.5s ease;
@@ -138,7 +138,6 @@ body {
   position: absolute;  
   opacity: 0;
   width: 40vw;
-  max-width: 600px;
   transition: opacity 1s ease, transform 1s ease;
   color: white;
   font-family: Roboto;
@@ -177,6 +176,60 @@ body {
   font-size: 15px;
 }
 
+#experience .card {
+  height: 120px;
+  width: 38vw;
+  max-width: 600px;
+  display: flex;
+  p {
+    display: inline;
+  }
+}
+
+.page.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page .card {
+  height: 180px;
+  width: 120px;
+  border: 1px solid white;
+  margin: 10px 10px;
+  display: block;
+  --dot-bg: #202020;
+  --dot-color: white;
+  --dot-size: 1px;
+  --dot-space: 30px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+  img {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  p {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  transition: transform 0.5s ease;
+}
+
+.page .card:hover {
+  transform: scale(1.05);
+  --dot-bg: #303030;
+  cursor: pointer;
+}
+
+a:visited, a:hover, a:active, a:focus {
+   color: white !important;
+   text-decoration: none !important;
+   outline: none !important;
+}
+
 @media (max-width: 780px) {
   body {
     flex-direction: column; /* force stacking */
@@ -212,5 +265,10 @@ body {
   #page-container .page {
     width: 80vw;
     max-width: 400px;
+  }
+
+  #experience .card {
+    width: 78vw;
+    max-width: 380px;
   }
 }
