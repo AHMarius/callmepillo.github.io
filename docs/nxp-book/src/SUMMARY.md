@@ -2,6 +2,7 @@
 
 [Prezentare](./prezentare.md)
 [Tasks](./tasks.md)
+[File & Link Stash](./file_link_stash.md)
 - [Firmware](./firmware.md)
   - [Camera Pixy](./pixy_cam.md)
   - [Comportament implicit](./default_behaviour.md)
