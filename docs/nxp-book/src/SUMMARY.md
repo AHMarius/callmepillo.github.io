@@ -1,3 +1,16 @@
 # Summary
 
-- [Prezentare](./prezentare.md)
+[Prezentare](./prezentare.md)
+- [Firmware](./firmware.md)
+  - [Camera Pixy](./pixy_cam.md)
+  - [Comportament implicit](./default_behaviour.md)
+  - [Flashing](./flashing.md)
+  - [Modificarea firmware](./modifying_fw.md)
+- [Mechanics](./mechanics.md)
+  - [Modelul masinii](./car_model.md)
+  - [Pozitionarea camerei](./camera_position.md)
+  - [TBA](./tba_mech.md)
+- [Algoritm](./alg.md)
+  - [TBA](./tba_alg.md)
+- [Metrici si performante](./metrics.md)
+  - [TBA](./tba_metrics.md)
