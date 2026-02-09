@@ -1,11 +1,14 @@
 # Summary
 
 [Prezentare](./prezentare.md)
+[Tasks](./tasks.md)
 - [Firmware](./firmware.md)
   - [Camera Pixy](./pixy_cam.md)
   - [Comportament implicit](./default_behaviour.md)
   - [Flashing](./flashing.md)
   - [Modificarea firmware](./modifying_fw.md)
+- [Hardware](./hardware.md)
+  - [TBA](./tba_hw.md)
 - [Mechanics](./mechanics.md)
   - [Modelul masinii](./car_model.md)
   - [Pozitionarea camerei](./camera_position.md)
