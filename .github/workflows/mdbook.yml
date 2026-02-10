@@ -25,7 +25,7 @@ jobs:
       - name: Run Build Script
         run: |
           chmod +x ./docs/mdbook-build.sh
-          sh ./docs/mdbook-build.sh
+          ./docs/mdbook-build.sh
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
