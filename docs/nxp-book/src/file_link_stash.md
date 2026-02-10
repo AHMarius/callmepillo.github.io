@@ -21,4 +21,5 @@ Aceasta pagina contine mai multe link-uri si fisiere utilizate in acest proiect,
 |[Firmware forum](https://groups.google.com/g/pixy_firmware_sdk) | Forum pentru Pixy firmware |
 |[Powering Pixy2.0](https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:powering_pixy) | Metode de alimentare a camerei |
 |[Pixy2.0 Diagram **GOLD**](../documents/pixy2_schematic-2.2.pdf) | Diagrama pentru Pixy2.0 |
+|[Pinout simple](../documents/image_248_2.png) | Pinout simplu |
 
