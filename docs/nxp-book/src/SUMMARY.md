@@ -16,4 +16,5 @@
 - [Algoritm](./alg.md)
   - [TBA](./tba_alg.md)
 - [Metrici si performante](./metrics.md)
-  - [TBA](./tba_metrics.md)
+  - [Definitii](./def_metrics.md)
+  - [Obervatii](./obs_metrics.md)
