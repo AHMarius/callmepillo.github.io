@@ -1,3 +1,3 @@
-# TO_BE_ADDED_PAGE
+# Modificarea firmware
 
-Salut! Daca ai ajuns aici, asta inseamna ca aceasta pagina este inca in lucru! Poti reveni mai tarziu si s-ar putea sa gasesti informatii noi!
+In aceasta pagina, dupa ce voi obtine un prototip adecvat, voi descrie modul in care a fost moficiat firmware-ul.
