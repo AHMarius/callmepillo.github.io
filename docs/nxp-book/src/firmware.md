@@ -10,3 +10,4 @@ si este necesara fie incercarea unui workflow *experimental* in IDE-uri [NXP](ht
 Putem considera folosirea Community Edition.
 
 Test Workflow 
+da
