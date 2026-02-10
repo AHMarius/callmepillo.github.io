@@ -1,4 +1,7 @@
 [book]
-title = "NXP Cup Book"
-authors = ["callmepillo"]
+title = ".da$ba 2026 NXP Cup Book"
+authors = ["callmepillo", "darius", "marius"]
 language = "ro"
+
+[output.html]
+mathjax-support = true
