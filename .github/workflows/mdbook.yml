@@ -2,7 +2,7 @@ name: Deploy With mdBook Website
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "up" ]
 
 permissions:
   contents: read
