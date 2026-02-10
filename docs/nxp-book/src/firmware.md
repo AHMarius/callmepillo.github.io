@@ -9,6 +9,3 @@ Pentru a putea fi compilat, este necesara utilizarea Keil MDK v5, care, din paca
 si este necesara fie incercarea unui workflow *experimental* in IDE-uri [NXP](https://groups.google.com/g/pixy_firmware_sdk/c/SRshI4EAdFo), fie dobandirea unei licente [uVision](https://www.keil.arm.com/mdk-community/).
 Putem considera folosirea Community Edition.
 
-Test Workflow 
-da
-da
