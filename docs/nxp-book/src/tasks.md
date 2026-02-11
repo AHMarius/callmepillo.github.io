@@ -8,16 +8,17 @@ Taskuri alocate fiecarui membru al echipei.
 - [ ] Trimite mail prof. pentru utilizarea pinilor J5
 - [ ] Citeste documentatie LPC4330
 - [ ] Realizeaza un workflow pentru firmware upload
-- [ ] Colectare documentatie
-- [ ] Embed latex : Realizare metrici
-- [ ] Design proiect + centralizare documentatie
-- [ ] Post road-map
+- [x] Colectare documentatie
+- [x] Embed latex : Realizare metrici
+- [x] Design proiect + centralizare documentatie
+- [x] Post road-map
 
 ## Darius
 - [ ] Scrie hardware.md
-- [ ] Realizeaza diagrama electrica
+- [x] Realizeaza diagrama electrica
 - [ ] Flow hardware
 - [x] Testare placa originala NXP pentru backup
+- [ ] Realizeaza plan fezabilitate
 
 ## Marius
 - [ ] Scrie prezentare.md
