@@ -23,6 +23,7 @@ Taskuri alocate fiecarui membru al echipei.
 - [ ] Scrie prezentare.md
 - [ ] Scrie algoritm.md
 - [ ] Printare componente (>>)
+- [ ] Construieste track improvizat
 - [ ] PR
 
 ## Co-op
