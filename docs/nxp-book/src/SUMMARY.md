@@ -3,6 +3,8 @@
 [Prezentare](./prezentare.md)
 [Tasks](./tasks.md)
 [File & Link Stash](./file_link_stash.md)
+[Plan fezabilitate](./plan_fez.md)
+[Roadmap](./roadmap.md)
 - [Firmware](./firmware.md)
   - [Camera Pixy](./pixy_cam.md)
   - [Comportament implicit & Building](./default_behaviour.md)
