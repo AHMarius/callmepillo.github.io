@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Main page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script> 
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- Menu bar -->
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <button id="sidebar-toggle" class="toggle-btn">☰</button>
+        <a href="#home" class="home-link">
+        <h2 class="full-name">Matei Iliescu</h2>
+        </a>
+        </div>
+      
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">
+            <span class="icon">👤</span>
+            <span class="nav-text">about</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">
+            <span class="icon">📁</span>
+            <span class="nav-text">projects</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#photos" class="nav-link">
+            <span class="icon">📷</span>
+            <span class="nav-text">photos</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#experience" class="nav-link">
+            <span class="icon">💼</span>
+            <span class="nav-text">experience</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="nxp-book/book/index.html" class="nav-link">
+            <span class="icon">🚗</span>
+            <span class="nav-text">nxp</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">
+            <span class="icon">✉️</span>
+            <span class="nav-text">contact</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sidebar-footer">
+        <div class="location-label">Iași, RO</div>
+        <div id="local-clock">--:--:--</div>
+      </div>
+    </nav>
+
+    <!-- Main content area -->
+    <main class="content-area">
+
+      <!-- Default loaded section, a slideshow of some pictures -->
+      <div id="home-view" class="view-section active-view" style="padding: 0; overflow: hidden;">
+  
+        <div class="slideshow-container">
+          <img src="media/photos/walp.jpg" class="slide-img active" alt="Atmosphere">
+          
+          <img src="media/photos/stairs.jpg" class="slide-img" alt="Details">
+          
+          <img src="media/photos/dusk_flowers_1.jpg" class="slide-img" alt="Texture">
+          
+          <div class="vignette"></div>
+        </div>
+      
+      </div>
+
+      <section id="about-view" class="view-section hidden-view">
+        
+        <div class="about-container">
+          <div class="profile-card">
+            <img src="media/profile.jpeg" alt="Matei Iliescu" class="profile-pic">
+          </div>
+    
+          <div class="bio-content">
+            <h1 class="page-title">./profile</h1>
+    
+            <div class="specs-grid">
+              <div class="spec-item">
+                <span class="label">Location</span>
+                <span class="value">Botoșani, RO</span>
+                <span class="value">Iași, RO</span>
+              </div>
+              <div class="spec-item">
+                <span class="label">Role</span>
+                <span class="value">Computer Engineering Student</span>
+              </div>
+              <div class="spec-item">
+                <span class="label">Focus</span>
+                <span class="value">Embedded / Microcontrollers</span>
+              </div>
+              <div class="spec-item">
+                <span class="label">Current year</span>
+                <span class="value">3rd Year BSC</span>
+              </div>
+            </div>
+    
+            <div class="bio-text">
+              <p>
+                Hello! I'm Iliescu Matei, a Computer Science student based in Iasi, Romania. With a deep passion for computers, mathematics, physics, and puzzles, I strive to provide efficient solutions to all problems that come my way. From a very young age, I came in contact with the magic box called "PC", being strongly influenced by my tech-savvy family. Thus, my curiosity got the best of me, and I started researching everything about my system. First, I understood Windows and how to navigate it. Then, I understood the underlying programming languages of a ".exe" file. Slowly, but surely, I started to comprehend the architecture of a program and how I could create my own. During this time, I also began my dive into Linux and its distributions, becoming a believer in the open-source mission and a power-user of Arch. Now, studying at TUIASI, I'm happy to grasp a deeper understanding of computers, and I'm fully focused on achieving a fulfilling career in this sector of industry. 
+              </p>
+            </div>
+    
+            <div class="tech-stack">
+              <span class="tech-tag">C/C++</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Linux</span>
+              <span class="tech-tag">Embedded-C</span>
+              <span class="tech-tag">Verilog</span>
+              <span class="tech-tag">RISC-V</span>
+            </div>
+    
+          </div> <!-- bio-content -->
+        </div> <!-- about-container -->
+      </section>
+
+      <section id="projects-view" class="view-section hidden-view">
+        <div class="content-container">
+          <h1 class="page-title">> ./projects_list</h1>
+          
+          <div class="projects-grid">
+      
+            <div class="project-card">
+              <div class="card-header">
+                <img src="media/krdsk.png" class="project-icon" alt="KRDSK">
+                <h3 class="project-title">KRDSK</h3>
+                <span class="status-badge live">Live</span>
+              </div>
+              <p class="project-desc">
+                A 2D platformer featuring a unique mechanic of controlling multiple, stackable, windows to
+                manoeuvre the main character.
+              </p>
+              <div class="tech-row">
+                <span class="tech-tag">Java Swing</span>
+                <span class="tech-tag">JavaFX</span>
+                <span class="tech-tag">AWT</span>
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/callmepillo/KRDSK" class="link-btn">View Code</a>
+              </div>
+            </div>
+      
+            <div class="project-card">
+              <div class="card-header">
+                <img src="media/fpga_logo.png" class="project-icon" alt="KRDSK">
+                <h3 class="project-title">Digital Systems Control Logic</h3>
+                <span class="status-badge live">Live</span>
+              </div>
+              <p class="project-desc">
+                An Implementation of a Simple ALU for an FPGA Using the Digilent Basys 3 and the Vivado Framework
+              </p>
+              <div class="tech-row">
+                <span class="tech-tag">VHDL</span>
+                <span class="tech-tag">FPGA</span>
+                <span class="tech-tag">Vivado</span>
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/callmepillo/ProiectED" class="link-btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-header">
+                <img src="media/logo-gtk-sm.png" class="project-icon" alt="GTKdoku">
+                <h3 class="project-title">GTKdoku</h3>
+                <span class="status-badge live">Live</span>
+              </div>
+              <p class="project-desc">
+                An implementation of Sudoku using Python and GTK, created to deepen my knowledge of GTK and algorithm design.
+              </p>
+              <div class="tech-row">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">GTK</span>
+                <span class="tech-tag">Linux</span>
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/callmepillo/GTKdoku" class="link-btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-header">
+                <img src="media/python.png" class="project-icon" alt="Battleship">
+                <h3 class="project-title">Linux Low-level IPC Framework</h3>
+                <span class="status-badge live">Live</span>
+              </div>
+              <p class="project-desc">
+                Implemented a low-level communication protocol based on IPC for a Battleship-like two-player videogame.
+              </p>
+              <div class="tech-row">
+                <span class="tech-tag">SystemV IPC</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Linux</span>
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/callmepillo/Battleship" class="link-btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-header">
+                <img src="media/risc-v-logo.png" class="project-icon" alt="RISC-V">
+                <h3 class="project-title">TinyRISCV</h3>
+                <span class="status-badge wip">WIP</span>
+              </div>
+              <p class="project-desc">
+                An implementation of a single-cycle RISC-V processor in Verilog.
+              </p>
+              <div class="tech-row">
+                <span class="tech-tag">Verilog</span>
+                <span class="tech-tag">RISC-V</span>
+                <span class="tech-tag">Computer Architectures</span>
+              </div>
+              <div class="card-links">
+                <a href="#" class="link-btn">View Code</a>
+              </div>
+            </div>
+      
+            </div>
+        </div>
+      </section>
+
+      <section id="photos-view" class="view-section hidden-view">
+        <div class="content-container">
+          <h1 class="page-title">/var/www/images</h1>
+          
+          <div id="gallery-grid" class="photo-grid"></div>
+          
+        </div>
+      
+        <div id="lightbox" class="lightbox">
+          <span class="close-btn">&times;</span>
+          <img class="lightbox-content" id="lightbox-img">
+          <div id="caption"></div>
+        </div>
+      </section>
+
+
+      <section id="experience-view" class="view-section hidden-view">
+        <div class="content-container">
+          <h1 class="page-title">/var/log/experience</h1>
+          
+          <div class="timeline">
+      
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-date">Jun 2022 - Sep 2022</div>
+              <div class="timeline-content">
+                <h3 class="role-title">Logistics Volunteer</h3>
+                <h4 class="org-name">National Society of Red Cross from Romania</h4>
+                <div class="log-details">
+                  <p>> Assisted with logistics, providing aid to refugees from Ukraine.</p>
+                </div>
+                <div class="tech-row">
+                  <span class="tech-tag">Humanitarian</span>
+                  <span class="tech-tag">Event Logistics</span>
+                  <span class="tech-tag">Team Work</span>
+                </div>
+              </div>
+            </div>
+      
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-date">Oct 2023 - Mar 2024</div>
+              <div class="timeline-content">
+                <h3 class="role-title">IT Department Volunteer</h3>
+                <h4 class="org-name">Liga Studenţilor Facultăţii de Automatică şi Calculatoare din Iaşi</h4>
+                <div class="log-details">
+                  <p>> I led a team in organising a "Who Wants to Be a Millionaire?" type competition in the college.</p>
+                </div>
+                <div class="tech-row">
+                  <span class="tech-tag">Networking</span>
+                  <span class="tech-tag">Event Logistics</span>
+                  <span class="tech-tag">Team Leadership</span>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-view" class="view-section hidden-view">
+        <div class="content-container">
+          <h1 class="page-title">./establish_connection</h1>
+          
+          <div class="contact-grid">
+            
+            <div class="contact-card primary">
+              <div class="icon-zone">@</div>
+              <div class="info-zone">
+                <span class="label">Priority Channel</span>
+                <a href="mailto:matei.iliescu@student.tuiasi.ro" class="contact-link">
+                  matei.iliescu@student.tuiasi.ro
+                </a>
+                <span class="status-indicator online">System Online</span>
+              </div>
+            </div>
+      
+            <div class="network-grid">
+              
+              <a href="https://www.linkedin.com/in/matei-iliescu/" target="_blank" class="network-card">
+                <span class="net-icon">In</span>
+                <div class="net-details">
+                  <span class="net-name">LinkedIn</span>
+                  <span class="net-status">Connect</span>
+                </div>
+              </a>
+      
+              <a href="https://github.com/callmepillo" target="_blank" class="network-card">
+                <span class="net-icon">Git</span>
+                <div class="net-details">
+                  <span class="net-name">GitHub</span>
+                  <span class="net-status">Follow</span>
+                </div>
+              </a>
+      
+            </div>
+      
+          </div>
+      
+          <div class="terminal-msg">
+            <p>> Waiting for incoming transmission...</p>
+            <p class="blink">_</p>
+          </div>
+      
+        </div>
+      </section>
+      
+    </main>
+
+</div>
+
+</body>
+</html>
+
