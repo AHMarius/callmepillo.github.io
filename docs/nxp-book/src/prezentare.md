@@ -5,8 +5,8 @@
 Suntem o echipă formată din trei studenți ai Universitații Tehnice "Gheorge Asachi" Iași în cadrul facultății de Automatică și Calculatoare  pasionați de programare, sisteme embedded și sisteme de control:
 
 - Hritcu Alexandru Marius  
-- Matei Iliescu  
-- Scutariu David  
+- Iliescu Matei  
+- Scutariu ~~David~~ Darius  
 
 Ne interesează proiectele care îmbină hardware-ul cu algoritmica și care implică procesare în timp real, optimizare și control precis. Abordăm dezvoltarea într-un mod tehnic și structurat, concentrându-ne pe eficiență, simplitate arhitecturală și performanță măsurabilă.
 
