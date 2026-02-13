@@ -22,4 +22,7 @@ Aceasta pagina contine mai multe link-uri si fisiere utilizate in acest proiect,
 |[Powering Pixy2.0](https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:powering_pixy) | Metode de alimentare a camerei |
 |[Pixy2.0 Diagram **GOLD**](../documents/pixy2_schematic-2.2.pdf) | Diagrama pentru Pixy2.0 |
 |[Pinout simple](../documents/image_248_2.png) | Pinout simplu |
+|[HW Connections](../documents/Initial_HW_connections.pdf) | Hardware Connections |
+|[DRV 8833](../documents/drv8833.pdf) | H bridge DRV8833 |
+|[MG 996R](../documents/drv8833.pdf) | Servo-motor MG996R |
 
