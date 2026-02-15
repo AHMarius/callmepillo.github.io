@@ -25,7 +25,7 @@
         Din (1) determinăm panta și ordonata la origine curentă:
         \[
             m_curr = (y_2-y_1)/(x_2-x_1)                        (2)
-            b_curr = y_2-m*x_2                        (3)
+            b_curr = y_2-m*x_2                                  (3)
         \]
 
         Aceste linii ce ne determina drumul au un unghi limitat, astfel putem defini un filtru unde unghiul $\alpha$ dintre segmentul liniei și ordonată aparține intervalului [$\pi/18$,$4\pi/9$]
@@ -34,9 +34,9 @@
             \alpha = |180/\pi * arctg(m)|
         \]
 
-        Alegând &p^i_1$ ca fiind linia de banda locată la baza imaginii. Astfel impunem condiția ca $y_1 \ge 0.4 * y_{c1}$, iar liniile ce nu întâlnesc acest criteriu nu vor fi luate in considerare.
+        Alegând $p^i_1$ ca fiind linia de banda locată la baza imaginii. Astfel impunem condiția ca $y_1 \ge 0.4 * y_{c1}$, iar liniile ce nu întâlnesc acest criteriu nu vor fi luate in considerare.
 
-        În practică, banda v-a fi descrisă de pană la două linii cu proprietatea fundamentală că cea din stânga v-a avea o pantă negativă, iar cea din dreapta o pantă pozitivă.
+        În practică, banda v-a fi descrisă de pană la două linii cu propriestea fundamentală că cea din stânga v-a avea o pantă negativă, iar cea din dreapta o pantă pozitivă.
 
     Detecția benzii:
          Algoritmul are în fața sa 3 cazuri posibile care descriu în egală măsură o bandă:
