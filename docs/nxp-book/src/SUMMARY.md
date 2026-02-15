@@ -10,7 +10,7 @@
   - [Comportament implicit & Building](./default_behaviour.md)
   - [Modificarea firmware](./modifying_fw.md)
 - [Hardware](./hardware.md)
-  - [TBA](./tba_hw.md)
+  - [HW Observations](./hw_obs.md)
 - [Mechanics](./mechanics.md)
   - [Modelul masinii](./car_model.md)
   - [Pozitionarea camerei](./camera_position.md)
