@@ -16,14 +16,14 @@
 
 ## Descriere functionare Algoritm
 
-        În continuare ne vom folosi de algoritmul introdus de Jozsef Suto pentru urmărirea traseului cu mențiunea că diferit față de articolul scris de acesta, partea în care acesta face procesarea imaginii pentru detectarea liniilor din imagine folosindu-se de transformata Hough, noi ne vom folosi de funcțiile puse la dispoziție de camera Pixy2 pentru a detecta aceste linii.
-        Liniile ce trebuie urmate sunt descrise fiecare de 2 puncte în coordonate polare.
-        Ecuația dreptei:
-        \\[
-            y = mx + b                      (1)
-        \\]
-        Din (1) determinăm panta și ordonata la origine curentă:
-        \\[
+În continuare ne vom folosi de algoritmul introdus de Jozsef Suto pentru urmărirea traseului cu mențiunea că diferit față de articolul scris de acesta, partea în care acesta face procesarea imaginii pentru detectarea liniilor din imagine folosindu-se de transformata Hough, noi ne vom folosi de funcțiile puse la dispoziție de camera Pixy2 pentru a detecta aceste linii.
+Liniile ce trebuie urmate sunt descrise fiecare de 2 puncte în coordonate polare.
+Ecuația dreptei:
+\\[
+y = mx + b                      (1)
+\\]
+Din (1) determinăm panta și ordonata la origine curentă:
+    \\[
             m_curr = (y_2-y_1)/(x_2-x_1)                        (2)
             b_curr = y_2-m_{curr}*x_2                                  (3)
         \\]
