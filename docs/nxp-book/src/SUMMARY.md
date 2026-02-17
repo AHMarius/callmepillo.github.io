@@ -20,3 +20,4 @@
 - [Metrici si performante](./metrics.md)
   - [Definitii](./def_metrics.md)
   - [Obervatii](./obs_metrics.md)
+[Centralizator meets](./main_meets.md)
