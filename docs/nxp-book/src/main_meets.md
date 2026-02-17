@@ -1,24 +1,26 @@
 # Centralizator Meets
 
 ## ALL MEETS:
-1. Meet 1 (11.02) - ref
+1. Meet 1 (11.02) - [ref](./meet1.md)
 
 ## Template
 
-**DATE:** tbe
+```
+## DATE:
 
-**PARTICIPANTS:** tbe
+## PARTICIPANTS
 
-**Minutes**
+## Minutes
 
-*1. Welface check-in*
+### 1.Welface check-in
 
-*2. Updates*
+### 2. Updates
 
-*3. Next steps*
+### 3. Next steps
 
-*4. Welface check-out*
+### 4. Welface check-out
 
-*5. Notes* (OPTIONAL)
+### 5. Notes* (OPTIONAL)
 
 Sa fie adaptat asa cum se simte de cuviinta
+```
