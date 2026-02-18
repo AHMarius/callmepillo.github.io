@@ -1,3 +1,5 @@
-# TO_BE_ADDED_PAGE
+# Mechanics
 
-Salut! Daca ai ajuns aici, asta inseamna ca aceasta pagina este inca in lucru! Poti reveni mai tarziu si s-ar putea sa gasesti informatii noi!
+Camera Pixy2.1 are dimensiunile: 3.81 x 4.191 x 1.524
+
+Greutate: 10g
