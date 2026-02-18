@@ -4,7 +4,6 @@
 [Tasks](./tasks.md)
 [File & Link Stash](./file_link_stash.md)
 [Plan fezabilitate](./plan_fez.md)
-[Centralizator meets](./main_meets.md)
 [Roadmap](./roadmap.md)
 - [Firmware](./firmware.md)
   - [Camera Pixy](./pixy_cam.md)
@@ -21,3 +20,5 @@
 - [Metrici si performante](./metrics.md)
   - [Definitii](./def_metrics.md)
   - [Obervatii](./obs_metrics.md)
+- [Centralizator meets](./main_meets.md)
+  - [Meet 1](./meet1.md)
