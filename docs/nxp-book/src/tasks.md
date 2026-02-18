@@ -18,8 +18,8 @@ Taskuri alocate fiecarui membru al echipei.
 - [x] Realizeaza diagrama electrica
 - [ ] Flow hardware
 - [x] Testare placa originala NXP pentru backup
-- [ ] Realizeaza plan fezabilitate
-- [ ] Adauga sectiune pentru centralizare meets
+- [x] Realizeaza plan fezabilitate
+- [x] Adauga sectiune pentru centralizare meets
 
 ## Marius
 - [ ] Scrie prezentare.md
