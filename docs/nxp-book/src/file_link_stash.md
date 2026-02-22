@@ -24,5 +24,5 @@ Aceasta pagina contine mai multe link-uri si fisiere utilizate in acest proiect,
 |[Pinout simple](../documents/image_248_2.png) | Pinout simplu |
 |[HW Connections](../documents/Initial_HW_connections.pdf) | Hardware Connections |
 |[DRV 8833](https://www.ti.com/lit/ds/symlink/drv8833.pdf) | H bridge DRV8833 |
-|[MG 996R](https://www.ti.com/lit/ds/symlink/drv8833.pdf) | Servo-motor MG996R |
+|[MG 996R](https://www.handsontec.com/dataspecs/motor_fan/MG996R.pdf) | Servo-motor MG996R |
 
