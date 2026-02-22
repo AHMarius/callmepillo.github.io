@@ -3,7 +3,7 @@
 Aici vom detalia obiectivele noastre principale din fiecare saptamana.
 
 ## S0 - 15.02
-- [ ] Plan fezabilitate
+- [x] ~~Plan fezabilitate~~ 17.02
 - [x] ~~Testare placa + camera~~ 10.02
 - [x] ~~Centralizare documentatie initiala~~ 10.02
 - [x] ~~Stabilirea unui knowledge hub~~ 9.02
@@ -12,10 +12,10 @@ Aici vom detalia obiectivele noastre principale din fiecare saptamana.
 - [ ] Workflows (compilare, incarcare, testare, depanare):
   - [ ] Hardware
   - [ ] Software
-  - [ ] Firmware
+  - [x] Firmware
 - [ ] Plan algoritm
-- [ ] Diagrama electrica
-- [ ] Incarcare prima versiune de firmware
+- [x] Diagrama electrica
+- [x] Incarcare prima versiune de firmware
 
 ## S2 - 1.03
 - [ ] Proiectare 3D masina

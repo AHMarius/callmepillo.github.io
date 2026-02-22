@@ -22,3 +22,4 @@
   - [Obervatii](./obs_metrics.md)
 - [Centralizator meets](./main_meets.md)
   - [Meet 1](./meet1.md)
+  - [Meet 2](./meet2.md)

@@ -3,11 +3,11 @@
 Taskuri alocate fiecarui membru al echipei.
 
 ## Matei
-- [ ] Scrie firmware.md
+- [x] Scrie firmware.md
 - [ ] Trimite mail Arm Keil pentru licenta uVision
-- [ ] Trimite mail prof. pentru utilizarea pinilor J5
-- [ ] Citeste documentatie LPC4330
-- [ ] Realizeaza un workflow pentru firmware upload
+- [x] Trimite mail prof. pentru utilizarea pinilor J5
+- [x] Citeste documentatie LPC4330
+- [x] Realizeaza un workflow pentru firmware upload
 - [x] Colectare documentatie
 - [x] Embed latex : Realizare metrici
 - [x] Design proiect + centralizare documentatie
@@ -22,8 +22,8 @@ Taskuri alocate fiecarui membru al echipei.
 - [x] Adauga sectiune pentru centralizare meets
 
 ## Marius
-- [ ] Scrie prezentare.md
-- [ ] Scrie algoritm.md
+- [x] Scrie prezentare.md
+- [x] Scrie algoritm.md
 - [ ] Printare componente (>>)
 - [ ] Construieste track improvizat
 - [ ] PR
@@ -32,4 +32,4 @@ Taskuri alocate fiecarui membru al echipei.
 - [ ] Marius+Darius: Realizare algoritm procesare imagini
 - [ ] Marius+Darius: Realizare algoritm best route
 - [ ] Matei+Darius: Realizare model 3D masina + optimizare
-- [ ] Team: Realizare road-map
+- [x] Team: Realizare road-map
